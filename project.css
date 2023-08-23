@@ -1,0 +1,238 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+/* Style for the title */
+.title {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* Style for the navigation */
+.head {
+    display: flex;
+    gap: 20px;
+}
+
+/* Style for navigation links */
+.head a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.head a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+
+/* Style for the Louer and Acheter buttons */
+.louer, .Acheter {
+    padding: 10px 15px;
+    border: 2px solid #ffc107;
+    border-radius: 4px;
+}
+
+.louer a, .Acheter a {
+    color: #ffc107;
+}
+
+/* Style for the Contact button */
+.contact {
+    background-color: #ffc107;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.contact a {
+    color: #151615;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Your existing styles for other elements */
+
+/* Style for the logo and title container */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 80px;
+    height: 60px;
+}
+
+
+.title {
+    font-size: 24px;
+    margin-left: 10px;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Villa listings section */
+#louer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+/* Individual villa listing */
+.villa {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Villa image */
+ img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Villa title */
+.villa h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Villa description */
+.villa #description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Villa price */
+.villa #price {
+    font-size: 16px;
+    color: #ff9900;
+}
+ h2{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+ }
+
+ #contact {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4:last-child {
+    margin-bottom: 0;
+  }
+  
+  #contact a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  #contact a:hover {
+    color: #0056b3;
+  }
+  
+  /* Optional: Add some spacing between contact details */
+  #contact h4 + h4 {
+    margin-top: 20px;
+  }
+
+  #Acheter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .maison {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .vendre {
+    max-width: 60%;
+    height: auto;
+  }
+  
+  .maison h5 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .maison .description {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .maison .prix {
+    font-size: 20px;
+    color: #e63946;
+    margin: 10px 0;
+  }
+  
+/* Add this to your existing CSS */
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counter button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.counter button:hover {
+    background-color: #e68000;
+}
+
+#count {
+    font-size: 18px;
+    margin: 0 15px;
+}
